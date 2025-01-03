@@ -27,9 +27,9 @@ export const EXPERIENCES = [
     year: "08.2023 - 12.2024",
     role: "Treasurer",
     company: "UCSB",
-    description: `Manages a budget of $100,000 and ensures accurate financial tracking for the committee's events.
-    Collaborates with fellow council members to coordinate funding initiatives and optimize resources.
-    Generates financial reports and supports financial decision-making for ongoing and upcoming events.
+    description: `Managed a budget of $100,000 and ensures accurate financial tracking for the committee's events.
+    Collaborated with fellow council members to coordinate funding initiatives and optimize resources.
+    Generated financial reports and supports financial decision-making for ongoing and upcoming events.
     Ensured timely processing of payments and reimbursements and maintained detailed financial records.
 `,
     technologies: ["HTML", "CSS", "Concur", "G Suite"],
@@ -40,7 +40,7 @@ export const EXPERIENCES = [
     company: "UC Santa Barbara",
     description: `Supported operation of help desk and serves as focal point for customer concerns. 
     Identified, researches, and resolves technical problems for end users on a variety of issues. 
-    Offers technical support to university staff and troubleshoots system application problems. 
+    Offered technical support to university staff and troubleshoots system application problems. 
     Stimulated exceptional customer service remote/onsite while maintaining a high degree of professionalism. 
 `,
     technologies: ["PowerBI", "Zendesk", "G Suite", "Python"],
@@ -58,9 +58,9 @@ export const EXPERIENCES = [
     year: "06.2021 - 09.2021",
     role: "Software Engineer Academy",
     company: "Snap Inc.",
-    description: `Collaborated with cross-functional teams in weekly QA meetings to discuss the bug fixes and latest builds. 
-    Executed functional testing to ensure that new features function properly without high priority issues. 
-    Performed exploratory, functional, integration, cross-platform, GUI, compatibility testing.`,
+    description: `Selected as 1 of 15 Scholars out of a competitive applicant pool of 150+ college students in the Los Angeles Metropolitan area.
+    Enhancing full stack programming skills utilizing React Native, HTML5, CSS, node.js to build responsive web apps.
+    Participating in custom, technical workshops, fireside chats, and mentorship with Snap Inc. employees.`,
     technologies: ["React.js", "p5.js", "SnapLens", "OBS"],
   },
 ];
