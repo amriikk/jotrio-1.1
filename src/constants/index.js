@@ -27,29 +27,41 @@ export const EXPERIENCES = [
     year: "08.2023 - 12.2024",
     role: "Treasurer",
     company: "UCSB",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    description: `Manages a budget of $100,000 and ensures accurate financial tracking for the committee's events.
+    Collaborates with fellow council members to coordinate funding initiatives and optimize resources.
+    Generates financial reports and supports financial decision-making for ongoing and upcoming events.
+    Ensured timely processing of payments and reimbursements and maintained detailed financial records.
+`,
+    technologies: ["HTML", "CSS", "Concur", "G Suite"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
+    year: "10.2021 - 11.2023",
+    role: "IT Remote Specialist",
     company: "UC Santa Barbara",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    description: `Supported operation of help desk and serves as focal point for customer concerns. 
+    Identified, researches, and resolves technical problems for end users on a variety of issues. 
+    Offers technical support to university staff and troubleshoots system application problems. 
+    Stimulated exceptional customer service remote/onsite while maintaining a high degree of professionalism. 
+`,
+    technologies: ["PowerBI", "Zendesk", "G Suite", "Python"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "UCSB",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
+    year: "06.2022 - 09.2022",
+    role: "Software QA Engineer",
     company: "AppDynamics | Cisco Inc.",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    description: `Collaborated with cross-functional teams in weekly QA meetings to discuss the bug fixes and latest builds. 
+    Executed functional testing to ensure that new features function properly without high priority issues. 
+    Performed exploratory, functional, integration, cross-platform, GUI, compatibility testing.`,
+    technologies: ["Java", "TypeScript", "Jira", "Bitbucket"],
+  },
+  {
+    year: "06.2021 - 09.2021",
+    role: "Software Engineer Academy",
+    company: "Snap Inc.",
+    description: `Collaborated with cross-functional teams in weekly QA meetings to discuss the bug fixes and latest builds. 
+    Executed functional testing to ensure that new features function properly without high priority issues. 
+    Performed exploratory, functional, integration, cross-platform, GUI, compatibility testing.`,
+    technologies: ["React.js", "p5.js", "SnapLens", "OBS"],
   },
 ];
 
