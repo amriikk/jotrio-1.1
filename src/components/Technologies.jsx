@@ -6,8 +6,7 @@ import { FaNodeJs } from 'react-icons/fa';
 import { BiLogoPostgresql } from 'react-icons/bi';
 import { SiTailwindcss } from "react-icons/si";
 import { SiBootstrap } from "react-icons/si";
-
-
+import { motion } from "framer-motion";
 
 const Technologies = () => {
   return (
