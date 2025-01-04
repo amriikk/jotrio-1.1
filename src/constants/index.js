@@ -3,19 +3,24 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `A dynamic Full Stack Software Developer with a proven track record in software development, quality assurance and customer-focused innovation. With experience at industry-leading companies like Cisco and Snap Inc., Jhon has developed expertise in automation frameworks, testing and front-end development using technologies such as React, Python, and C++. His commitment to delivering exceptional user experiences was honed during his tenure at Apple's Genius Bar on State Street where he provided innovative solutions to complex problems and created memorable customer interactions. 
-
-Jhon thrives in Agile/Scrum environments, contributing to the seamless integration of automation and testing to ensure product reliability. He has extensive experience designing and developing scalable, user-centric applications and writing automated tests using industry-standard frameworks.
-
+export const HERO_CONTENT = `A dynamic Full Stack Software Developer with a proven track record in software development, quality assurance and customer-focused innovation. 
+With experience at industry-leading companies like Cisco and Snap Inc., Jhon has developed expertise in automation frameworks, testing and front-end development using technologies such as React, Python, and C++. 
+His commitment to delivering exceptional user experiences was honed during his tenure at Apple's Genius Bar on State Street where he provided innovative solutions to complex problems and created memorable customer interactions. 
+Jhon thrives in Agile/Scrum environments, contributing to the seamless integration of automation and testing to ensure product reliability. 
+He has extensive experience designing and developing scalable, user-centric applications and writing automated tests using industry-standard frameworks.
 With over five years of hands-on experience, Jhon's technical proficiency spans both frontend and backend technologies, including React, Next.js, Node.js, MySQL, PostgreSQL and MongoDB.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. 
+With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. 
+My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. 
+I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. 
+Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
     year: "10.2024 - Present",
     role: "Frontend Web Developer",
-    company: "UCSB",
+    company: "UCSB | East Asian Languages & Cultural Studies",
     description: `Led a team in developing and maintaining web applications using JavaScript, HTML5, and CSS. 
     Implemented APIs and integrated with department databases. 
     Designed and implemented custom themes and plugins to meet unique departmental needs.
@@ -26,7 +31,7 @@ export const EXPERIENCES = [
   {
     year: "08.2023 - 12.2024",
     role: "Treasurer",
-    company: "UCSB",
+    company: "UCSB | Student Apartment Community Council",
     description: `Managed a budget of $100,000 and ensures accurate financial tracking for the committee's events.
     Collaborated with fellow council members to coordinate funding initiatives and optimize resources.
     Generated financial reports and supports financial decision-making for ongoing and upcoming events.
@@ -37,7 +42,7 @@ export const EXPERIENCES = [
   {
     year: "10.2021 - 11.2023",
     role: "IT Remote Specialist",
-    company: "UC Santa Barbara",
+    company: "UCSB | Information Technology Services",
     description: `Supported operation of help desk and serves as focal point for customer concerns. 
     Identified, researches, and resolves technical problems for end users on a variety of issues. 
     Offered technical support to university staff and troubleshoots system application problems. 
