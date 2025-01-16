@@ -1,7 +1,5 @@
 import logo from "../assets/JtLogo.png";
-import { FaGithub} from "react-icons/fa";
-import { FaLinkedin} from "react-icons/fa";
-import { FaInstagram} from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaFilePdf } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -10,14 +8,17 @@ const Navbar = () => {
             <img className= "mx-2 w-16" src= {logo} alt="Portfolio logo" />
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-            <a href="https://github.com/amriikk">
+            <a href="https://github.com/amriikk" target="_blank">
               <FaGithub />
             </a>
-            <a href="https://www.linkedin.com/in/jhonkhrizhtian/">
+            <a href="https://www.linkedin.com/in/jhonkhrizhtian/" target="_blank">
               <FaLinkedin />
             </a>
             <a href="#">
               <FaInstagram />
+            </a>
+            <a href='https://drive.google.com/file/d/11Lre1BHf93iwQby2UPbUyx63PGyu6ZJp/view?usp=sharing' target="_blank" download>
+              <FaFilePdf />
             </a>
         </div>
     </nav>
