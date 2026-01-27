@@ -1,5 +1,5 @@
-<h2 align="center">Jo.Tr.io</h2>
-<h2 align="center">Jhon Trujillo | Software Engineer</h2>
+<h2 align="center">JoTr.io</h2>
+<h2 align="center"> Jeitī Trujillo | Software Engineer </h2>
 <div align="center">
 
 [![Website Badge](https://img.shields.io/badge/-Jo.Tr.io-gold?style=plastic&logo=HTML5&logoColor=white&link=https://bit.ly/jotrio/)](https://bit.ly/jotrio)
