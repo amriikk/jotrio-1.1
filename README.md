@@ -23,5 +23,5 @@ Ambidexterous + Multilingual | Animal Lover | Foodie | Pokémon Maestro + Hogwar
 
 
 
-<h6 align="center">This is my personal portfolio with some of my most recent works + projects. </h6>
+
 <h6 align="center">Feel free to contact me me via Gmail + LinkedIn using the links above. </h6>
