@@ -2,7 +2,7 @@
 <h2 align="center"> Jeitī Trujillo | Lead UX Engineer & UI Designer </h2>
 <div align="center">
 
-[![Website Badge](https://img.shields.io/badge/-Jo.Tr.io-gold?style=plastic&logo=HTML5&logoColor=white&link=https://bit.ly/jotrio/)](https://bit.ly/jotrio)
+[![Website Badge](https://img.shields.io/badge/-Jo.Tr.io-gold?style=plastic&logo=HTML5&logoColor=white&link=https://jotrportfolio.vercel.app/)](https://jotrportfolio.vercel.app/)
 [![Linkedin Badge](https://img.shields.io/badge/-JhonKhrizhtian-blue?style=plastic&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jhonkhrizhtian/)](https://www.linkedin.com/in/jhonkhrizhtian/)
 [![Gmail Badge](https://img.shields.io/badge/-amriikk@gmail.com-d14836?style=plastic&logo=Gmail&logoColor=white&link=mailto:amriikk@gmail.com)](mailto:amriikk@gmail.com)
 
