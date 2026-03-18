@@ -1,5 +1,5 @@
 <h1 align="center">JoTr.io</h1>
-<h2 align="center"> Jeitī Trujillo | Lead UX Engineer & UI Designer </h2>
+<h2 align="center"> Jhon Trujillo | UX Engineer & UI Designer </h2>
 <div align="center">
 
 [![Website Badge](https://img.shields.io/badge/-Jo.Tr.io-gold?style=plastic&logo=HTML5&logoColor=white&link=https://jotrportfolio.vercel.app/)](https://jotrportfolio.vercel.app/)
