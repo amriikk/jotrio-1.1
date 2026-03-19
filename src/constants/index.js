@@ -17,9 +17,23 @@ Outside of coding, I enjoy staying active, exploring new technologies, and contr
 
 export const EXPERIENCES = [
   {
-    year: "10.2024 - Present",
+    year: "10.2025 - Present",
+    role: "Lead UX Engineer",
+    company: "RazeMath",
+    description: `Leading design strategy focused on Cognitive Load Theory (CLT) to minimize extraneous load and maximize germane load for students. Bridging the gap between design and front-end engineering by building interfaces that respect the brain's limits. Shipped the platform's first PRs and features, including custom Dark Mode architecture. Architected bite-sized learning paths and distraction-free layouts to facilitate faster schema formation. Collaborating cross-functionally to translate complex pedagogical needs into elegant, functional code.`,
+    technologies: ["Front-End Development", "UI/UX Design", "Software Infrastructure"],
+  },
+  {
+    year: "03.2025 - Present",
     role: "Frontend Web Developer",
-    company: "UCSB | East Asian Languages & Cultural Studies",
+    company: "UCSB | Department of French and Italian",
+    description: `Spearheaded the complete overhaul of the department website, leading the project from conceptual design to final deployment. Architected and developed a new, fully responsive, modern component-based frontend that dramatically improved navigation, content accessibility, and performance. Directed the end-to-end redesign process, managing the timeline, technical execution, and feedback cycles with faculty to ensure a consistent brand identity.`,
+    technologies: ["PHP", "CSS", "UI/UX Design", "Frontend Development"],
+  },
+  {
+    year: "10.2024 - 04.2025",
+    role: "Frontend Developer",
+    company: "UCSB",
     description: `Led a team in developing and maintaining web applications using JavaScript, HTML5, and CSS. 
     Implemented APIs and integrated with department databases. 
     Designed and implemented custom themes and plugins to meet unique departmental needs.
@@ -34,8 +48,7 @@ export const EXPERIENCES = [
     description: `Managed a budget of $100,000 and ensures accurate financial tracking for the committee's events.
     Collaborated with fellow council members to coordinate funding initiatives and optimize resources.
     Generated financial reports and supports financial decision-making for ongoing and upcoming events.
-    Ensured timely processing of payments and reimbursements and maintained detailed financial records.
-`,
+    Ensured timely processing of payments and reimbursements and maintained detailed financial records.`,
     technologies: ["HTML", "CSS", "Concur", "G Suite"],
   },
   {
@@ -45,8 +58,7 @@ export const EXPERIENCES = [
     description: `Supported operation of help desk and serves as focal point for customer concerns. 
     Identified, researches, and resolves technical problems for end users on a variety of issues. 
     Offered technical support to university staff and troubleshoots system application problems. 
-    Stimulated exceptional customer service remote/onsite while maintaining a high degree of professionalism. 
-`,
+    Stimulated exceptional customer service remote/onsite while maintaining a high degree of professionalism.`,
     technologies: ["PowerBI", "Zendesk", "G Suite", "Python"],
   },
   {
@@ -103,5 +115,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "Santa Barbara, CA 93101 ",
   phoneNo: "+1 646 580 2349 ",
-  email: "trujillojohnk@me.com",
+  email: "trujillo@ucsb.edu",
 };

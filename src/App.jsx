@@ -15,10 +15,10 @@ const MainPortfolio = () => (
   <>
     <Hero />
     <About />
-    <Technologies />
-    <Experiences />
     <Projects />
+    <Experiences />
     <SideProjects />
+    <Technologies />
     <Contact />
   </>
 );
