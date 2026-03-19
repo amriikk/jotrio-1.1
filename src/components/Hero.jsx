@@ -14,15 +14,19 @@ const container = (delay) => ({
 
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
-        <div className="flex flex-wrap">
+    // Standardized padding to match the rest of the site (pb-24 pt-16)
+    <div className="border-b border-neutral-900 pb-24 pt-16">
+        {/* Added mx-auto max-w-6xl to perfectly align edges with the About section */}
+        <div className="mx-auto flex max-w-6xl flex-col items-center gap-12 lg:flex-row lg:items-start lg:justify-between">
+            
             <div className="w-full lg:w-1/2">
-                <div className="flex flex-col items-center lg:items-start">
+                {/* Centered on mobile, left-aligned on desktop */}
+                <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
                     <motion.h1 
                         variants={container(0)}
                         initial="hidden"
                         animate="visible"
-                        className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+                        className="pb-8 text-6xl font-thin tracking-tight lg:text-8xl"
                         >
                         Jhon Trujillo
                     </motion.h1>
@@ -37,28 +41,28 @@ const Hero = () => {
                         variants={container(1)}
                         initial="hidden"
                         animate="visible"
-                        className='my-2 max-w-xl py-6 font-light tracking-tigher'>{HERO_CONTENT}</motion.p>
+                        className='my-6 max-w-xl font-light leading-relaxed tracking-tighter'>
+                        {HERO_CONTENT}
+                    </motion.p>
                 </div>
             </div>
-            <div className="w-full lg:w-1/2 lg:p-8">
-                {/* The Framer Motion animation wraps the entire card structure 
-                  so the GlareCard can handle the internal 3D hover transforms.
-                */}
+
+            <div className="flex w-full justify-center lg:w-1/2 lg:justify-end">
                 <motion.div 
                     initial={{x: 100, opacity: 0}}
                     animate={{x: 0, opacity: 1}}
                     transition={{duration: 1, delay: 1.3}}
-                    className="flex justify-center"
                 >
                     <GlareCard className="flex flex-col items-center justify-center">
                         <img
-                            className="h-full w-full object-cover" 
+                            className="absolute inset-0 h-full w-full object-cover" 
                             src={profilePic} 
                             alt="Jhon Trujillo" 
                         />
                     </GlareCard>
                 </motion.div>
             </div>
+            
         </div>
     </div>
   )

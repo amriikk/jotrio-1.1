@@ -8,12 +8,13 @@ import { GlareCard } from "./ui/glare-card";
 
 const About = () => {
   return (
-    <div className="border-b border-neutral-900 pb-24 pt-12">
-      {/* Using a responsive grid: 
-        1 column on mobile, 3 columns on large screens. 
-        justify-items-center keeps the 320px GlareCards perfectly centered.
+    <div className="border-b border-neutral-900 pb-24 pt-24">
+      
+      {/* 1. -space-y-12 for mobile (vertical overlap)
+        2. md:space-y-0 resets the vertical overlap on desktop
+        3. md:-space-x-12 applies the horizontal overlap on desktop
       */}
-      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-10 lg:grid-cols-3 lg:justify-items-center">
+      <div className="mx-auto flex max-w-5xl flex-col items-center justify-center -space-y-12 md:flex-row md:-space-x-12 md:space-y-0">
         
         {/* Card 1: The Section Title */}
         <motion.div
@@ -21,9 +22,10 @@ const About = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.1 }}
+          className="relative z-10" 
         >
           <GlareCard className="flex flex-col items-center justify-center bg-neutral-950">
-            <h2 className="text-4xl font-bold tracking-tight text-neutral-200 lg:text-6xl">
+            <h2 className="text-center text-4xl font-bold tracking-tight text-neutral-200 lg:text-6xl">
               About <br />
               <span className="text-cyan-300">Me</span>
             </h2>
@@ -36,12 +38,13 @@ const About = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.3 }}
+          className="relative z-20" 
         >
           <GlareCard className="flex flex-col items-center justify-center bg-neutral-950">
             <img
               className="absolute inset-0 h-full w-full object-cover"
               src={aboutImg}
-              alt="Jhon Trujillo"
+              alt="Jhon Christian Trujillo"
             />
           </GlareCard>
         </motion.div>
@@ -52,6 +55,7 @@ const About = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.5 }}
+          className="relative z-30" 
         >
           <GlareCard className="flex flex-col items-start justify-end bg-neutral-950 px-6 py-8">
             <p className="mb-2 text-xl font-bold text-neutral-200">The Journey</p>
@@ -59,7 +63,6 @@ const About = () => {
               {SHORT_ABOUT_TEXT}
             </p>
             
-            {/* The relative and z-10 classes are crucial here so the link is clickable through the glare overlay */}
             <Link 
               to="/bio" 
               className="group relative z-10 flex w-fit items-center gap-2 rounded-full border border-cyan-800 bg-cyan-900/40 px-6 py-2 text-sm font-medium text-cyan-300 transition-all hover:bg-cyan-900/60 hover:text-cyan-100"
