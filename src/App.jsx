@@ -8,6 +8,8 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
 import SideProjects from "./components/SideProjects";
+import ImageGallery from "./components/ImageGallery";
+import VideoGallery from "./components/VideoGallery";
 import CompetencyPage from "./components/CompetencyPage";
 import AnimatedBackground from "./components/ui/animated-background"; 
 
@@ -37,6 +39,8 @@ const App = () => {
             <Route path="/" element={<MainPortfolio />} />
             <Route path="/competency/:id" element={<CompetencyPage />} />
             <Route path="/bio" element={<Bio />} />
+            <Route path="/gallery" element={<VideoGallery />} />
+            <Route path="/images" element={<ImageGallery />} /> {/* Added this line */}
           </Routes>
         </div>
       </div>
