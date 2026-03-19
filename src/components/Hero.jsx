@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from '../constants'
 import profilePic from '../assets/JT_hero.png'
 import { motion } from "framer-motion"
+import { GlareCard } from "./ui/glare-card"
 
 const container = (delay) => ({
     hidden: {x: -100, opacity: 0},
@@ -30,7 +31,7 @@ const Hero = () => {
                         initial="hidden"
                         animate="visible"
                         className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">
-                        Full Stack Developer
+                        Full Stack Developer | UX Engineer
                     </motion.span>
                     <motion.p 
                         variants={container(1)}
@@ -40,16 +41,23 @@ const Hero = () => {
                 </div>
             </div>
             <div className="w-full lg:w-1/2 lg:p-8">
-                <div className="flex justify-center ">
-                    <motion.img
-                        className='rounded-3xl' 
-                        initial={{x: 100, opacity: 0}}
-                        animate={{x: 0, opacity: 1}}
-                        transition={{duration: 1, delay: 1.3}}
-                        src={profilePic} 
-                        alt="Jhon Trujillo" 
-                    />
-                </div>
+                {/* The Framer Motion animation wraps the entire card structure 
+                  so the GlareCard can handle the internal 3D hover transforms.
+                */}
+                <motion.div 
+                    initial={{x: 100, opacity: 0}}
+                    animate={{x: 0, opacity: 1}}
+                    transition={{duration: 1, delay: 1.3}}
+                    className="flex justify-center"
+                >
+                    <GlareCard className="flex flex-col items-center justify-center">
+                        <img
+                            className="h-full w-full object-cover" 
+                            src={profilePic} 
+                            alt="Jhon Trujillo" 
+                        />
+                    </GlareCard>
+                </motion.div>
             </div>
         </div>
     </div>

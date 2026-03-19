@@ -3,12 +3,11 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `A dynamic Full Stack Software Developer with a proven track record in software development, quality assurance and customer-focused innovation. 
-With experience at industry-leading companies like Cisco and Snap Inc., Jhon has developed expertise in automation frameworks, testing and front-end development using technologies such as React, Python, and C++. 
-His commitment to delivering exceptional user experiences was honed during his tenure at Apple's Genius Bar on State Street where he provided innovative solutions to complex problems and created memorable customer interactions. 
-Jhon thrives in Agile/Scrum environments, contributing to the seamless integration of automation and testing to ensure product reliability. 
-He has extensive experience designing and developing scalable, user-centric applications and writing automated tests using industry-standard frameworks.
-With over five years of hands-on experience, Jhon's technical proficiency spans both frontend and backend technologies, including React, Next.js, Node.js, MySQL, PostgreSQL and MongoDB.`;
+export const HERO_CONTENT = `I am a Full Stack Software Developer with over five years of experience building scalable, user-centric applications. 
+Drawing from a background at Cisco, Snap Inc., and Apple, I specialize in blending robust backend automation with seamless frontend technologies to deliver reliable, 
+exceptional user experiences.`;
+
+export const SHORT_ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications.`
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. 
 With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. 
