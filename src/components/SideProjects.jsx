@@ -9,16 +9,16 @@ const SIDE_PROJECTS = [
     title: "LLM Semantic Book Recommender",
     description: "A machine learning project leveraging Large Language Models to recommend books based on semantic similarity and natural language queries.",
     category: "AI / LLMs",
-    link: "https://github.com/t-redactyl/llm-semantic-book-recommender/tree/main",
+    link: "https://github.com/amriikk/Biblios",
     url: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80" 
   },
   {
     id: 2,
-    title: "Unreal Engine 5 RPG Game",
-    description: "An Assassin's Creed Origins-style RPG developed in Unreal Engine 5, featuring advanced locomotion, inventory systems, and open-world AI.",
-    category: "Game Dev",
-    link: "https://www.youtube.com/watch?v=FNTyIWkv5k8",
-    url: "https://img.youtube.com/vi/FNTyIWkv5k8/maxresdefault.jpg" 
+    title: "Smartphone Addiction Predictor",
+    description: "A data science project utilizing a Predictive Random Forest Model to analyze and predict smartphone addiction trends among teenagers.",
+    category: "Data Science",
+    link: "https://v0-smartphone-teens.vercel.app/",
+    url: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80" 
   },
   {
     id: 3,
@@ -46,11 +46,11 @@ const SIDE_PROJECTS = [
   },
   {
     id: 6,
-    title: "Smartphone Addiction Predictor",
-    description: "A data science project utilizing a Predictive Random Forest Model to analyze and predict smartphone addiction trends among teenagers.",
-    category: "Data Science",
-    link: "https://v0-smartphone-teens.vercel.app/",
-    url: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80" 
+    title: "Unreal Engine 5 RPG Game",
+    description: "An Assassin's Creed Origins-style RPG developed in Unreal Engine 5, featuring advanced locomotion, inventory systems, and open-world AI.",
+    category: "Game Dev",
+    link: "https://www.youtube.com/watch?v=FNTyIWkv5k8",
+    url: "https://img.youtube.com/vi/FNTyIWkv5k8/maxresdefault.jpg" 
   }
 ];
 
