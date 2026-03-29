@@ -1,17 +1,17 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AnimatedBackground from "./components/ui/animated-background"; 
 import About from "./components/About";
 import Bio from "./components/Bio";
-import Contact from "./components/Contact";
-import Experiences from "./components/Experiences";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Contact from "./components/Contact";
 import Projects from "./components/Projects";
+import Experiences from "./components/Experiences";
 import Technologies from "./components/Technologies";
 import SideProjects from "./components/SideProjects";
 import ImageGallery from "./components/ImageGallery";
 import VideoGallery from "./components/VideoGallery";
 import CompetencyPage from "./components/CompetencyPage";
-import AnimatedBackground from "./components/ui/animated-background"; 
 
 const MainPortfolio = () => (
   <>
@@ -19,7 +19,6 @@ const MainPortfolio = () => (
     <About />
     <Projects />
     <Experiences />
-    <SideProjects />
     <Technologies />
     <Contact />
   </>
@@ -30,7 +29,6 @@ const App = () => {
     <BrowserRouter>
       <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
         
-        {/* Replaced the static radial gradient div with the new component */}
         <AnimatedBackground />
 
         <div className="container mx-auto px-8">
@@ -39,10 +37,12 @@ const App = () => {
             <Route path="/" element={<MainPortfolio />} />
             <Route path="/competency/:id" element={<CompetencyPage />} />
             <Route path="/bio" element={<Bio />} />
+            <Route path="/images" element={<ImageGallery />} />
             <Route path="/gallery" element={<VideoGallery />} />
-            <Route path="/images" element={<ImageGallery />} /> {/* Added this line */}
+            <Route path="/side-projects" element={<SideProjects />} /> 
           </Routes>
         </div>
+
       </div>
     </BrowserRouter>
   );
