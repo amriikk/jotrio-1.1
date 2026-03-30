@@ -31,15 +31,15 @@ const SIDE_PROJECTS = [
   {
     id: 4,
     title: "Multipage Education Platform",
-    description: "A fully responsive educational website built with HTML, CSS, and Vanilla JavaScript, featuring CSS Grid, Flexbox, and custom animations.",
+    description: "A fully responsive educational website built with HTML, CSS, and Vanilla JavaScript, featuring CSS Grid, Flexbox & custom animations.",
     category: "Web Dev",
     link: "https://www.youtube.com/watch?v=--XrIa-iey0",
     url: "https://img.youtube.com/vi/--XrIa-iey0/maxresdefault.jpg"
   },
-  {
+  {i 
     id: 5,
     title: "Interactive Game Experience",
-    description: "An immersive gameplay project emphasizing core game loops, environment design, and character mechanics.",
+    description: "An immersive gameplay project emphasizing core game loops, environment design & character mechanics.",
     category: "Game Dev",
     link: "https://www.youtube.com/watch?v=e_SPuvO_l1w",
     url: "https://img.youtube.com/vi/e_SPuvO_l1w/maxresdefault.jpg"
