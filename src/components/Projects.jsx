@@ -83,7 +83,7 @@ const GridItem = ({ area, icon, title, description, id }) => {
 
 const Projects = () => {
   return (
-    <div className="border-b border-neutral-900 pb-24">
+    <div id="competencies-section"className="border-b border-neutral-900 pb-24">
     
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}

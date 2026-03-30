@@ -18,7 +18,6 @@ const MainPortfolio = () => (
     <Hero />
     <About />
     <Projects />
-    <Experiences />
     <Technologies />
     <Contact />
   </>
@@ -35,10 +34,11 @@ const App = () => {
           <Navbar /> 
           <Routes>
             <Route path="/" element={<MainPortfolio />} />
-            <Route path="/competency/:id" element={<CompetencyPage />} />
             <Route path="/bio" element={<Bio />} />
             <Route path="/images" element={<ImageGallery />} />
             <Route path="/gallery" element={<VideoGallery />} />
+            <Route path="/experience" element={<Experiences />} />
+            <Route path="/competency/:id" element={<CompetencyPage />} />
             <Route path="/side-projects" element={<SideProjects />} /> 
           </Routes>
         </div>

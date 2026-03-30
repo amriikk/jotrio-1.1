@@ -13,12 +13,25 @@ const CompetencyPage = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  // Custom back handler to navigate and scroll to the specific section
+  const handleBack = () => {
+    navigate("/"); 
+    
+    // Wait a brief moment for the target page to render, then smoothly scroll to the section
+    setTimeout(() => {
+      const element = document.getElementById("competencies-section");
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 100);
+  };
+
   // Fallback if someone types a bad URL
   if (!competencyData) {
     return (
       <div className="my-32 text-center">
         <h2 className="text-3xl text-neutral-300">Competency not found</h2>
-        <button onClick={() => navigate("/")} className="mt-8 text-cyan-400 underline">Return Home</button>
+        <button onClick={handleBack} className="mt-8 text-cyan-400 underline">Return Home</button>
       </div>
     );
   }
@@ -31,10 +44,10 @@ const CompetencyPage = () => {
       className="my-24 border-b border-neutral-900 pb-24"
     >
       <button 
-        onClick={() => navigate("/")}
+        onClick={handleBack}
         className="mb-12 text-sm text-neutral-400 transition-colors hover:text-cyan-400"
       >
-        ← Back to Portfolio
+        ← Back to Competencies
       </button>
 
       <h1 className="mb-6 text-5xl font-bold tracking-tight text-neutral-200">

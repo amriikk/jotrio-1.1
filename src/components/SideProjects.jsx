@@ -36,7 +36,7 @@ const SIDE_PROJECTS = [
     link: "https://www.youtube.com/watch?v=--XrIa-iey0",
     url: "https://img.youtube.com/vi/--XrIa-iey0/maxresdefault.jpg"
   },
-  {i 
+  { 
     id: 5,
     title: "Interactive Game Experience",
     description: "An immersive gameplay project emphasizing core game loops, environment design & character mechanics.",
@@ -165,7 +165,6 @@ const SideProjects = () => {
                 transition={{ duration: 0.3, delay: index * 0.05 }}
                 className="h-full"
               >
-                {/* GLOWING EFFECT WRAPPER ADDED HERE */}
                 <div className="relative h-full rounded-[1.25rem] border-[0.75px] border-neutral-800 p-2 md:rounded-[1.5rem] md:p-3">
                   <GlowingEffect
                     spread={40}
