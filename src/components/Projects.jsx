@@ -45,7 +45,7 @@ const PORTFOLIO_FEATURES = [
 const GridItem = ({ area, icon, title, description, id }) => {
     const navigate = useNavigate();    
   return (
-    <li // Add onClick and some hover scale effects to make it feel like a button
+    <li // onClick + some hover scale effects to make it feel like a button
       onClick={() => navigate(`/competency/${id}`)}
       className={cn(
         "min-h-[14rem] list-none cursor-pointer transition-transform hover:scale-[1.02]", 

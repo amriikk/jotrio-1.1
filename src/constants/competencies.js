@@ -31,7 +31,7 @@ export const COMPETENCY_DETAILS = {
         title: "CNSI Biotech Landscape Analysis",
         description: "Conducted an overarching landscape analysis to identify critical barriers preventing biotech companies from implementing automated workflows in their R&D lab environments.",
         link: "https://www.cnsi.ucsb.edu/node/1206",
-        image: "/cnsi-preview.jpg"
+        image: "/project-cnsi.png"
       }
     ]
   },
