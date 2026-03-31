@@ -60,8 +60,8 @@ export const COMPETENCY_DETAILS = {
       {
         title: "AI Strategy & Agentic Modeling",
         description: "Executed data-focused projects utilizing machine learning and agentic models to analyze complex systems, translating technical findings into strategic roadmaps.",
-        link: "https://your-data-link.com",
-        image: "/data-preview.jpg"
+        link: "https://v0-smartphone-teens.vercel.app/",
+        image: "/project-teens.png"
       }
     ]
   },
