@@ -28,7 +28,7 @@ const Navbar = () => {
                 to="/side-projects" 
                 className="text-sm font-medium tracking-wide text-neutral-400 transition-colors hover:text-cyan-300"
               >
-                Side Projects
+                Projects
               </Link>
             </div>
 
