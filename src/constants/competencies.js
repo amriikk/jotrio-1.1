@@ -28,7 +28,7 @@ export const COMPETENCY_DETAILS = {
     headerDescription: "Translating complex landscape data into actionable strategic insights.",
     projects: [
       {
-        title: "CNSI Biotech Landscape Analysis",
+        title: "CNSI | Biotech Landscape Analysis",
         description: "Conducted an overarching landscape analysis to identify critical barriers preventing biotech companies from implementing automated workflows in their R&D lab environments.",
         link: "https://www.cnsi.ucsb.edu/node/1206",
         image: "/project-cnsi.png"
@@ -70,10 +70,10 @@ export const COMPETENCY_DETAILS = {
     headerDescription: "Applying advanced technology management principles to lead cross-functional engineering and design teams.",
     projects: [
       {
-        title: "Technology Management & UX Leadership",
-        description: "Led the UI/UX engineering lifecycle for RazeMath, aligning technical execution with agile methodologies and broader business objectives drawing from Master of Technology Management frameworks.",
-        link: "https://your-agile-link.com",
-        image: "/agile-preview.jpg"
+        title: "UniConnect",
+        description: "The ultimate app for college events, deals, and connecting with your campus community. Whether you're hosting or going out, we've got you covered.",
+        link: "https://www.uniconnect.social/",
+        image: "/project-uni.png"
       }
     ]
   }
