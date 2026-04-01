@@ -15,7 +15,7 @@ const SIDE_PROJECTS = [
   {
     id: 2,
     title: "Smartphone Addiction Predictor",
-    description: "A data science project utilizing a Predictive Random Forest Model to analyze and predict smartphone addiction trends among teenagers.",
+    description: "A data science project utilizing a Predictive Random Forest Model to analyze & predict smartphone addiction trends among teenagers.",
     category: "Data Science",
     link: "https://v0-smartphone-teens.vercel.app/",
     url: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80" 
