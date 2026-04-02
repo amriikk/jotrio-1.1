@@ -8,11 +8,11 @@ const SIDE_PROJECTS = [
     id: 1,
     title: "LLM Semantic Book Recommender",
     description: "A machine learning project leveraging Large Language Models to recommend books based on semantic similarity and natural language queries.",
-    category: "AI / LLMs",
+    category: "AI | LLMs",
     link: "https://github.com/amriikk/Biblios",
     url: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80" 
   },
-  {
+  { 
     id: 2,
     title: "Smartphone Addiction Predictor",
     description: "A data science project utilizing a Predictive Random Forest Model to analyze & predict smartphone addiction trends among teenagers.",
@@ -20,38 +20,38 @@ const SIDE_PROJECTS = [
     link: "https://v0-smartphone-teens.vercel.app/",
     url: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80" 
   },
-  {
-    id: 3,
-    title: "End-to-End MLOps Pipeline",
-    description: "A comprehensive house price prediction system demonstrating core ML, CI/CD, experiment tracking, and deployment using ZenML and MLflow.",
-    category: "Data Science",
-    link: "https://www.youtube.com/watch?v=o6vbe5G7xNo",
-    url: "https://img.youtube.com/vi/o6vbe5G7xNo/maxresdefault.jpg"
-  },
-  {
-    id: 4,
-    title: "Multipage Education Platform",
-    description: "A fully responsive educational website built with HTML, CSS, and Vanilla JavaScript, featuring CSS Grid, Flexbox & custom animations.",
-    category: "Web Dev",
-    link: "https://www.youtube.com/watch?v=--XrIa-iey0",
-    url: "https://img.youtube.com/vi/--XrIa-iey0/maxresdefault.jpg"
-  },
-  { 
-    id: 5,
-    title: "Interactive Game Experience",
-    description: "An immersive gameplay project emphasizing core game loops, environment design & character mechanics.",
-    category: "Game Dev",
-    link: "https://www.youtube.com/watch?v=e_SPuvO_l1w",
-    url: "https://img.youtube.com/vi/e_SPuvO_l1w/maxresdefault.jpg"
-  },
-  {
-    id: 6,
-    title: "Unreal Engine 5 RPG Game",
-    description: "An Assassin's Creed Origins-style RPG developed in Unreal Engine 5, featuring advanced locomotion, inventory systems, and open-world AI.",
-    category: "Game Dev",
-    link: "https://www.youtube.com/watch?v=FNTyIWkv5k8",
-    url: "https://img.youtube.com/vi/FNTyIWkv5k8/maxresdefault.jpg" 
-  }
+  // {
+  //   id: 3,
+  //   title: "End-to-End MLOps Pipeline",
+  //   description: "A comprehensive house price prediction system demonstrating core ML, CI/CD, experiment tracking, and deployment using ZenML and MLflow.",
+  //   category: "Data Science",
+  //   link: "https://www.youtube.com/watch?v=o6vbe5G7xNo",
+  //   url: "https://img.youtube.com/vi/o6vbe5G7xNo/maxresdefault.jpg"
+  // },
+  // {
+  //   id: 4,
+  //   title: "Multipage Education Platform",
+  //   description: "A fully responsive educational website built with HTML, CSS, and Vanilla JavaScript, featuring CSS Grid, Flexbox & custom animations.",
+  //   category: "Web Dev",
+  //   link: "https://www.youtube.com/watch?v=--XrIa-iey0",
+  //   url: "https://img.youtube.com/vi/--XrIa-iey0/maxresdefault.jpg"
+  // },
+  // { 
+  //   id: 5,
+  //   title: "Interactive Game Experience",
+  //   description: "An immersive gameplay project emphasizing core game loops, environment design & character mechanics.",
+  //   category: "Game Dev",
+  //   link: "https://www.youtube.com/watch?v=e_SPuvO_l1w",
+  //   url: "https://img.youtube.com/vi/e_SPuvO_l1w/maxresdefault.jpg"
+  // },
+  // {
+  //   id: 6,
+  //   title: "Unreal Engine 5 RPG Game",
+  //   description: "An Assassin's Creed Origins-style RPG developed in Unreal Engine 5, featuring advanced locomotion, inventory systems, and open-world AI.",
+  //   category: "Game Dev",
+  //   link: "https://www.youtube.com/watch?v=FNTyIWkv5k8",
+  //   url: "https://img.youtube.com/vi/FNTyIWkv5k8/maxresdefault.jpg" 
+  // }
 ];
 
 const SideProjects = () => {
