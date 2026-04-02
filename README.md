@@ -17,7 +17,7 @@
 
 ```javascript
 const jeiti = {
-  title: "Lead UX/UI Engineer",
+  title: "AI | ML Engineer",
   tagline: "1 part Lead UX/UI Engineer. 2 parts Athletic Yogi. 3 parts Creative Visionary.",
   academics: {
     degree: "Master of Technology Management",
