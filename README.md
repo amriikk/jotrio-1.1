@@ -3,9 +3,9 @@
 
 <div align="center">
 
-[![Website Badge](https://img.shields.io/badge/-Jo.Tr.io-gold?style=flat-square&logo=HTML5&logoColor=white&link=https://jotrio.com/)](https://jotrportfolio.vercel.app/)
-[![Linkedin Badge](https://img.shields.io/badge/-Jeiti-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jhonkhrizhtian/)](https://www.linkedin.com/in/jhonkhrizhtian/)
-[![Gmail Badge](https://img.shields.io/badge/-amriikk@gmail.com-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:amriikk@gmail.com)](mailto:amriikk@gmail.com)
+[![Website Badge](https://img.shields.io/badge/-Jo.Tr.io-gold?style=plastic&logo=HTML5&logoColor=white&link=https://jotrio.com/)](https://jotrio.com/)
+[![Linkedin Badge](https://img.shields.io/badge/-Jeitī-blue?style=plastic&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jeiti/)](https://www.linkedin.com/in/jeiti/)
+[![Gmail Badge](https://img.shields.io/badge/-jeiti.trujillo@gmail.com-d14836?style=plastic&logo=Gmail&logoColor=white&link=mailto:jeiti.trujillo@gmail.com)](mailto:jeiti.trujillo@gmail.com)
 
 </div>
 
