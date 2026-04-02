@@ -1,10 +1,10 @@
-<h1 align="center">Jeitī Trujillo</h1>
-<h3 align="center">Lead UX Engineer & UI Designer</h3>
+<h1 align="center">.:: J E I T I ::.</h1>
+<h2 align="center">Full Stack Software Engineer | Data Storyteller & Digital Designer</h2>
 
 <div align="center">
 
-[![Website Badge](https://img.shields.io/badge/-Jo.Tr.io-gold?style=flat-square&logo=HTML5&logoColor=white&link=https://jotrportfolio.vercel.app/)](https://jotrportfolio.vercel.app/)
-[![Linkedin Badge](https://img.shields.io/badge/-JhonKhrizhtian-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jhonkhrizhtian/)](https://www.linkedin.com/in/jhonkhrizhtian/)
+[![Website Badge](https://img.shields.io/badge/-Jo.Tr.io-gold?style=flat-square&logo=HTML5&logoColor=white&link=https://jotrio.com/)](https://jotrportfolio.vercel.app/)
+[![Linkedin Badge](https://img.shields.io/badge/-Jeiti-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jhonkhrizhtian/)](https://www.linkedin.com/in/jhonkhrizhtian/)
 [![Gmail Badge](https://img.shields.io/badge/-amriikk@gmail.com-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:amriikk@gmail.com)](mailto:amriikk@gmail.com)
 
 </div>
