@@ -118,7 +118,7 @@ const SideProjects = () => {
             id="gallery-heading"
             className="mb-4 mt-6 text-4xl font-bold tracking-tight text-neutral-200"
           >
-            Side Projects
+            Projects
           </h2>
           <p className="mx-auto max-w-2xl text-neutral-400">
             A collection of personal, academic, and creative endeavors outside my core competencies.

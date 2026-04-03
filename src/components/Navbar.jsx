@@ -43,7 +43,7 @@ const Navbar = () => {
                   <FaGithub />
                 </a>
                 <a 
-                  href="https://www.linkedin.com/in/jhonkhrizhtian/" 
+                  href="https://www.linkedin.com/in/jeiti/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="transition-colors hover:text-cyan-300"
@@ -57,7 +57,7 @@ const Navbar = () => {
                   <FaInstagram />
                 </a>
                 <a 
-                  href="https://drive.google.com/file/d/11Lre1BHf93iwQby2UPbUyx63PGyu6ZJp/view?usp=sharing" 
+                  href="https://docs.google.com/document/d/1LnK-WJrYCZ_ytks7F0GuRN7vOxZZsAFPrzKxIffcCRc/edit?usp=sharing" 
                   target="_blank" 
                   download 
                   rel="noopener noreferrer"

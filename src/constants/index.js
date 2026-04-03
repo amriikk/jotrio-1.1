@@ -21,7 +21,7 @@ export const EXPERIENCES = [
     role: "Lead UX Engineer",
     company: "RazeMath",
     description: `Leading design strategy focused on Cognitive Load Theory (CLT) to minimize extraneous load and maximize germane load for students. Bridging the gap between design and front-end engineering by building interfaces that respect the brain's limits. Shipped the platform's first PRs and features, including custom Dark Mode architecture. Architected bite-sized learning paths and distraction-free layouts to facilitate faster schema formation. Collaborating cross-functionally to translate complex pedagogical needs into elegant, functional code.`,
-    technologies: ["Front-End Development", "UI/UX Design", "Software Infrastructure"],
+    technologies: ["Typescript", "Figma", "Supabase", "UI/UX Design"],
   },
   {
     year: "03.2025 - Present",
