@@ -32,7 +32,7 @@ const Navbar = () => {
               </Link>
             </div>
 
-            {/* Social Icons */}
+            {/* Socials + resume */}
             <div className="flex items-center justify-center gap-4 text-xl text-neutral-400 sm:text-2xl">
                 <a 
                   href="https://github.com/amriikk" 
@@ -66,7 +66,6 @@ const Navbar = () => {
                   <FaFilePdf />
                 </a>
             </div>
-            
         </div>
     </nav>
   );
