@@ -24,7 +24,7 @@ export const EXPERIENCES = [
     technologies: ["Typescript", "Figma", "Supabase", "UI/UX Design"],
   },
   {
-    year: "03.2025 - Present",
+    year: "03.2025 - 04.2026",
     role: "Frontend Web Developer",
     company: "UCSB | Department of French and Italian",
     description: `Spearheaded the complete overhaul of the department website, leading the project from conceptual design to final deployment. Architected and developed a new, fully responsive, modern component-based frontend that dramatically improved navigation, content accessibility, and performance. Directed the end-to-end redesign process, managing the timeline, technical execution, and feedback cycles with faculty to ensure a consistent brand identity.`,

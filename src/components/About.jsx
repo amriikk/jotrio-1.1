@@ -10,10 +10,12 @@ const About = () => {
   return (
     <div className="border-b border-neutral-900 pb-24 pt-24">
       
-      {/* 1. -space-y-12 for mobile (vertical overlap)
-        2. md:space-y-0 resets the vertical overlap on desktop
-        3. md:-space-x-12 applies the horizontal overlap on desktop
+      {/* 
+          1. -space-y-12 for mobile (vertical overlap)
+          2. md:space-y-0 resets the vertical overlap on desktop
+          3. md:-space-x-12 applies the horizontal overlap on desktop
       */}
+      
       <div className="mx-auto flex max-w-5xl flex-col items-center justify-center -space-y-12 md:flex-row md:-space-x-12 md:space-y-0">
         
         {/* Card 1: The Section Title */}

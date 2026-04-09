@@ -11,7 +11,7 @@ export const COMPETENCY_DETAILS = {
       },
       {
         title: "UCSB | French & Italian Department",
-        description: "Spearheaded the complete end-to-end overhaul of the department's website. Architected a fully responsive, modern component-based frontend that drastically improved navigation, accessibility, and engagement for the academic community.",
+        description: "Spearheaded the complete end-to-end overhaul of the department's website. Architected a fully responsive, modern component-based frontend that drastically improved navigation, accessibility & engagement for the academic community.",
         link: "https://www.frit.ucsb.edu/",
         image: "/frit-preview.png" 
       },
