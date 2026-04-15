@@ -17,7 +17,7 @@ export const COMPETENCY_DETAILS = {
       },
       {
         title: "UCSB | East Asian Languages & Cultural Studies",
-        description: "Managed overall website functionality and accessibility while designing custom themes and plugins. Collaborated directly with faculty and staff to curate academic resources and integrate digital archives.",
+        description: "Managed overall website functionality & accessibility while designing custom themes and plugins. Collaborated directly with faculty and staff to curate academic resources and integrate digital archives.",
         link: "https://eastasian.ucsb.edu/",
         image: "/ealcs-preview.png" 
       }
