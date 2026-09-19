@@ -12,21 +12,21 @@ const SIDE_PROJECTS = [
     link: "https://github.com/amriikk/Biblios",
     url: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80" 
   },
-  { 
-    id: 2,
-    title: "Smartphone Addiction Predictor",
-    description: "A data science project utilizing a Predictive Random Forest Model to analyze & predict smartphone addiction trends among teenagers.",
-    category: "Data Science",
-    link: "https://v0-smartphone-teens.vercel.app/",
-    url: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80" 
-  },
   {
-    id: 3,
+    id: 2,
     title: "Iterative AI Agent Architecture",
     description: "An enterprise-grade LLM orchestration monorepo featuring stateful FastAPI microservices, a dynamic routing supervisor, and deterministic plan-and-execute guardrails.",
     category: "AI | LLMs",
     link: "https://github.com/amriikk/ai-analytics-ece",
     url: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80" 
+  },
+  { 
+    id: 3,
+    title: "Smartphone Addiction Predictor",
+    description: "A data science project utilizing a Predictive Random Forest Model to analyze & predict smartphone addiction trends among teenagers.",
+    category: "Data Science",
+    link: "https://v0-smartphone-teens.vercel.app/",
+    url: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80" 
   },
   // {
   //   id: 4,
