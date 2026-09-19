@@ -20,14 +20,14 @@ const SIDE_PROJECTS = [
     link: "https://v0-smartphone-teens.vercel.app/",
     url: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80" 
   },
-  // {
-  //   id: 3,
-  //   title: "End-to-End MLOps Pipeline",
-  //   description: "A comprehensive house price prediction system demonstrating core ML, CI/CD, experiment tracking, and deployment using ZenML and MLflow.",
-  //   category: "Data Science",
-  //   link: "https://www.youtube.com/watch?v=o6vbe5G7xNo",
-  //   url: "https://img.youtube.com/vi/o6vbe5G7xNo/maxresdefault.jpg"
-  // },
+  {
+    id: 3,
+    title: "Iterative AI Agent Architecture",
+    description: "An enterprise-grade LLM orchestration monorepo featuring stateful FastAPI microservices, a dynamic routing supervisor, and deterministic plan-and-execute guardrails.",
+    category: "AI | LLMs",
+    link: "https://github.com/amriikk/ai-analytics-ece",
+    url: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80" 
+  },
   // {
   //   id: 4,
   //   title: "Multipage Education Platform",
