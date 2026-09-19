@@ -1,77 +1,83 @@
 export const COMPETENCY_DETAILS = {
   "frontend-ui": {
-    pageTitle: "Frontend & UI/UX Design",
-    headerDescription: "Crafting intuitive, responsive, and aesthetically precise digital experiences.",
+    pageTitle: "Frontend Architecture & UI/UX",
+    headerDescription: "Architecting high-performance, responsive interfaces for data-intensive applications.",
     projects: [
       {
         title: "RazeMath | AI Math Tutor",
-        description: "Led UX Engineering and UI Design. Architected the complete branding system, engineered custom dark mode themes, and resolved complex front-end debugging challenges to ensure a seamless user experience.",
+        description: "Engineered robust, state-driven user interfaces and comprehensive design systems. Architected custom UI frameworks and resolved complex frontend state management challenges to ensure low-latency, seamless user experiences.",
         link: "https://razemath.app",
         image: "/razemath-preview.png"
       },
       {
         title: "UCSB | French & Italian Department",
-        description: "Spearheaded the complete end-to-end overhaul of the department's website. Architected a fully responsive, modern component-based frontend that drastically improved navigation, accessibility & engagement for the academic community.",
+        description: "Spearheaded the end-to-end architectural overhaul of a high-traffic academic platform. Deployed a modular, component-based frontend designed for strict accessibility compliance, scalability, and long-term maintainability.",
         link: "https://www.frit.ucsb.edu/",
         image: "/frit-preview.png" 
       },
       {
         title: "UCSB | East Asian Languages & Cultural Studies",
-        description: "Managed overall website functionality & accessibility while designing custom themes and plugins. Collaborated directly with faculty and staff to curate academic resources and integrate digital archives.",
+        description: "Maintained critical platform infrastructure and integrated complex digital archives. Collaborated with cross-functional stakeholders to develop custom plugins and ensure high-reliability resource access.",
         link: "https://eastasian.ucsb.edu/",
         image: "/ealcs-preview.png" 
       }
     ]
   },
   "research-synthesis": {
-    pageTitle: "Research & Synthesis",
-    headerDescription: "Translating complex landscape data into actionable strategic insights.",
+    pageTitle: "Systems Research & Synthesis",
+    headerDescription: "Translating complex hardware/software landscape data into actionable engineering strategies.",
     projects: [
       {
-        title: "CNSI | Biotech Landscape Analysis",
-        description: "Conducted an overarching landscape analysis to identify critical barriers preventing biotech companies from implementing automated workflows in their R&D lab environments.",
+        title: "CNSI | Biotech Automation Analysis",
+        description: "Conducted rigorous landscape analysis to identify systemic barriers in R&D lab environments. Synthesized technical data to develop strategic frameworks for implementing automated, closed-loop hardware and software workflows.",
         link: "https://www.cnsi.ucsb.edu/node/1206",
         image: "/project-cnsi.png"
       }
     ]
   },
   "tech-leadership": {
-    pageTitle: "Technology Leadership",
-    headerDescription: "Distilling industry trends into accessible formats and guiding strategic direction.",
+    pageTitle: "Technical Strategy & Leadership",
+    headerDescription: "Distilling complex engineering trends into accessible frameworks and guiding strategic direction.",
     projects: [
       {
         title: "Tech Talks with JT",
-        description: "Created and produced a comprehensive podcast series. Designed all episode branding, managed content strategy, and synthesized insights on venture capital and market signals.",
+        description: "Produced a technical series synthesizing insights on venture capital, emerging market signals, and technology adoption. Managed end-to-end content strategy to communicate complex systemic trends to broad audiences.",
         link: "https://medium.com/@jeiti",
         image: "/ttwjt-preview.png"
       },
       {
         title: "InnerOS",
-        description: "Developed comprehensive scripts and visual assets for the series, driving the creative and technical direction of the project.",
+        description: "Directed the technical and creative roadmap for a digital series focused on the intersection of human performance and technological systems, developing structured conceptual frameworks.",
         link: "https://substack.com/@jeiti",
         image: "/inneros-preview.png"
       }
     ]
   },
   "data-analytics": {
-    pageTitle: "Data Analytics & Machine Learning",
-    headerDescription: "Leveraging machine learning and data-driven insights to drive strategic technical decisions.",
+    pageTitle: "Data Engineering & AI Systems",
+    headerDescription: "Designing fault-tolerant, production-grade AI architectures and data pipelines.",
     projects: [
       {
-        title: "AI Strategy & Agentic Modeling",
-        description: "Executed data-focused projects utilizing machine learning and agentic models to analyze complex systems, translating technical findings into strategic roadmaps.",
+        title: "AI Orchestrator | Deterministic Agent Architecture",
+        description: "Architected a stateful, production-grade LLM microservice using FastAPI and LangGraph. Engineered a dynamic Supervisor routing system featuring strict Pydantic JSON guardrails and deterministic Python operators to guarantee bug-free, predictable data analytics.",
+        link: "https://github.com/amriikk/ai-analytics-ece",
+        image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80"
+      },
+      {
+        title: "Predictive Analytics Modeling",
+        description: "Developed and trained a Predictive Random Forest model to analyze behavioral telemetry. Built end-to-end machine learning pipelines to extract actionable predictive metrics from complex tabular datasets.",
         link: "https://v0-smartphone-teens.vercel.app/",
         image: "/project-teens.png"
       }
     ]
   },
   "agile-management": {
-    pageTitle: "Agile & Technology Management",
-    headerDescription: "Applying advanced technology management principles to lead cross-functional engineering and design teams.",
+    pageTitle: "Technical Product Management",
+    headerDescription: "Driving rapid iterative development and leading cross-functional engineering teams.",
     projects: [
       {
         title: "UniConnect",
-        description: "The ultimate app for college events, deals, and connecting with your campus community. Whether you're hosting or going out, we've got you covered.",
+        description: "Led a cross-functional software engineering team through the full product lifecycle. Managed sprint velocity, Git workflows, and QA reporting to successfully ship and scale a production iOS platform.",
         link: "https://www.uniconnect.social/",
         image: "/project-uni.png"
       }
