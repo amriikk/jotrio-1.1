@@ -3,11 +3,9 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a Full Stack Software Developer with over five years of experience building scalable, user-centric applications. 
-Drawing from a background at Cisco, Snap Inc., and Apple, I specialize in blending robust backend automation with seamless frontend technologies to deliver reliable, 
-exceptional user experiences.`;
+export const HERO_CONTENT = `I engineer resilient, production-grade software systems and fault-tolerant AI architectures. I have a strong foundation in applied mathematics & technology management, I specialize in bridging complex backend data pipelines with high-performance frontend interfaces to deliver mission-critical, scalable applications.`;
 
-export const SHORT_ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications.`
+export const SHORT_ABOUT_TEXT = `I am a software engineer focused on designing deterministic data pipelines, robust AI orchestrators & scalable system architectures that perform reliably in complex + data-heavy environments.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. 
 With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. 

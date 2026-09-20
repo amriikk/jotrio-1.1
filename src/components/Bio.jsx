@@ -29,11 +29,10 @@ const Bio = () => {
       
       <div className="mt-12 space-y-6 max-w-4xl text-neutral-400">
         <p className="text-lg leading-relaxed">
-          I am a Full Stack Software Developer with over five years of experience designing scalable, user-centric applications. My technical proficiency spans both frontend and backend technologies, including React, Next.js, Node.js, Python, and C++, alongside robust database management using MySQL, PostgreSQL, and MongoDB.
-        </p>
+          I am a Software Engineer driven by the challenge of architecting fault-tolerant systems and production-grade applications. My technical proficiency spans high-performance backend data processing and automation using Python and C++, alongside robust frontend state management using React, Next.js, and Node.js.
         
         <p className="text-lg leading-relaxed">
-          Having worked with industry leaders like Cisco, Snap Inc., and Apple, I bring a unique blend of technical rigor in QA and automation paired with a deep commitment to customer-focused innovation. I thrive in Agile environments, seamlessly integrating testing and development to build reliable products that deliver exceptional user experiences.
+          Through my background in applied mathematics and my Master of Technology Management from UC Santa Barbara, I bring a rigorous, systems-level approach to software development. My experience in quality assurance, AI strategy, and UI/UX engineering allows me to design deterministic, scalable architectures that prioritize data integrity and execution speed. I thrive in cross-functional, agile environments where rapid iteration, strict testing protocols, and uncompromised reliability are the baseline for success.
         </p>
       </div>
     </motion.div>
