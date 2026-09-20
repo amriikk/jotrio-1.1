@@ -29,8 +29,8 @@ const Bio = () => {
       
       <div className="mt-12 space-y-6 max-w-4xl text-neutral-400">
         <p className="text-lg leading-relaxed">
-          I am a Software Engineer driven by the challenge of architecting fault-tolerant systems and production-grade applications. My technical proficiency spans high-performance backend data processing and automation using Python and C++, alongside robust frontend state management using React, Next.js, and Node.js.
-        
+          I am a Software Engineer driven by the challenge of architecting fault-tolerant systems and production-grade applications. My technical proficiency spans high-performance backend data processing and automation using Python and C++, alongside robust frontend state management using React, Next.js, and Node.js. 
+        </p>
         <p className="text-lg leading-relaxed">
           Through my background in applied mathematics and my Master of Technology Management from UC Santa Barbara, I bring a rigorous, systems-level approach to software development. My experience in quality assurance, AI strategy, and UI/UX engineering allows me to design deterministic, scalable architectures that prioritize data integrity and execution speed. I thrive in cross-functional, agile environments where rapid iteration, strict testing protocols, and uncompromised reliability are the baseline for success.
         </p>
