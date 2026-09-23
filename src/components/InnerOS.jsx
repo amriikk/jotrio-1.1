@@ -59,7 +59,6 @@ const InnerOS = () => {
               <a href="#" className="view-project-btn">Case Study Coming Soon</a>
             </div>
             <div className="app-visual">
-              {/* You will eventually replace this div with an actual <img /> of the app interface */}
               <div className="image-placeholder">App Interface Preview</div>
             </div>
           </div>
@@ -67,7 +66,9 @@ const InnerOS = () => {
       </section>
         </div>
       </section>
-    <iOS_Articles />
+      <section>
+        <iOS_Articles />
+      </section>
     </div>
   );
 };
