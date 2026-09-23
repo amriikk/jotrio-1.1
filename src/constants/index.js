@@ -14,14 +14,20 @@ export const EXPERIENCES = [
     year: "10.2025 - Present",
     role: "Lead UX Engineer",
     company: "RazeMath",
-    description: `Leading design strategy focused on Cognitive Load Theory (CLT) to minimize extraneous load and maximize germane load for students. Bridging the gap between design and front-end engineering by building interfaces that respect the brain's limits. Shipped the platform's first PRs and features, including custom Dark Mode architecture. Architected bite-sized learning paths and distraction-free layouts to facilitate faster schema formation. Collaborating cross-functionally to translate complex pedagogical needs into elegant, functional code.`,
+    description: `Leading design strategy focused on Cognitive Load Theory (CLT) to minimize extraneous load and maximize germane load for students. 
+    Bridging the gap between design and front-end engineering by building interfaces that respect the brain's limits. 
+    Shipped the platform's first PRs and features, including custom Dark Mode architecture. 
+    Architected bite-sized learning paths and distraction-free layouts to facilitate faster schema formation. 
+    Collaborating cross-functionally to translate complex pedagogical needs into elegant, functional code.`,
     technologies: ["Typescript", "Figma", "Supabase", "UI/UX Design"],
   },
   {
     year: "03.2025 - 04.2026",
     role: "Frontend Web Developer",
     company: "UCSB | Department of French and Italian",
-    description: `Spearheaded the complete overhaul of the department website, leading the project from conceptual design to final deployment. Architected and developed a new, fully responsive, modern component-based frontend that dramatically improved navigation, content accessibility, and performance. Directed the end-to-end redesign process, managing the timeline, technical execution, and feedback cycles with faculty to ensure a consistent brand identity.`,
+    description: `Spearheaded the complete overhaul of the department website, leading the project from conceptual design to final deployment. 
+    Architected and developed a new, fully responsive, modern component-based frontend that dramatically improved navigation, content accessibility, and performance. 
+    Directed the end-to-end redesign process, managing the timeline, technical execution, and feedback cycles with faculty to ensure a consistent brand identity.`,
     technologies: ["PHP", "CSS", "UI/UX Design", "Frontend Development"],
   },
   {
