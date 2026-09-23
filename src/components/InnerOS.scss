@@ -1,0 +1,89 @@
+.inner-os-container {
+  // Ensure the page takes up the full width and sets a dark theme baseline
+  background-color: #0a192f; 
+  color: #ccd6f6;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+
+  .parallax-hero {
+    position: relative;
+    height: 100vh; // Full viewport height
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    // --- THE PARALLAX MAGIC ---
+    // Update the URL to point to your actual yoga/meditation image
+    background-image: url('/path-to-your-image.jpg'); 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    // A dark gradient overlay so your white text stays readable against any background
+    .hero-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        to bottom, 
+        rgba(10, 25, 47, 0.6) 0%, 
+        rgba(10, 25, 47, 0.9) 100%
+      );
+      z-index: 1;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2; // Sits above the overlay
+      padding: 0 2rem;
+      transform: translateY(-10%); // Slight optical adjustment for vertical centering
+
+      .inner-os-title {
+        font-size: clamp(3rem, 8vw, 6rem); // Responsive sizing
+        font-weight: 800;
+        color: #e6f1ff;
+        letter-spacing: 4px;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+      }
+
+      .inner-os-subtitle {
+        font-size: clamp(1.2rem, 3vw, 1.8rem);
+        color: #64ffda; // A calm, tech-forward accent color
+        font-weight: 400;
+        margin-bottom: 0.5rem;
+      }
+
+      .hero-credentials {
+        font-size: 1rem;
+        color: #8892b0;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  // Temporary styling for the next section to let you test the scroll effect
+  .philosophy-section {
+    position: relative;
+    z-index: 10;
+    background-color: #0a192f; // Solid background covers the fixed image as you scroll
+    padding: 6rem 2rem;
+
+    .content-container {
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+
+      h2 {
+        font-size: 2.5rem;
+        color: #e6f1ff;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
