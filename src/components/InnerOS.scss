@@ -14,14 +14,13 @@
     text-align: center;
     
     // --- THE PARALLAX MAGIC ---
-    // Update the URL to point to your actual yoga/meditation image
     background-image: url('/inneros-preview.png'); 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
-    // A dark gradient overlay so your white text stays readable against any background
+    // A dark gradient overlay so white text stays readable against any background
     .hero-overlay {
       position: absolute;
       top: 0;
@@ -67,7 +66,6 @@
     }
   }
 
-  // Temporary styling for the next section to let you test the scroll effect
   .philosophy-section {
     position: relative;
     z-index: 10;
@@ -77,12 +75,134 @@
     .content-container {
       max-width: 900px;
       margin: 0 auto;
-      text-align: center;
+      
+      h2 {
+        font-size: 2.5rem;
+        color: #e6f1ff;
+        margin-bottom: 2.5rem;
+        text-align: center;
+      }
+
+      // Formatting for your personal excerpt
+      .philosophy-text {
+        text-align: left;
+        font-size: 1.15rem; 
+        line-height: 1.8;
+        color: #8892b0;
+
+        p {
+          margin-bottom: 1.5rem;
+        }
+
+        b {
+          color: #64ffda; 
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  .digital-application-section {
+    position: relative;
+    z-index: 10;
+    background-color: #0a192f;
+    padding: 2rem 2rem 8rem;
+
+    .content-container {
+      max-width: 1000px;
+      margin: 0 auto;
 
       h2 {
         font-size: 2.5rem;
         color: #e6f1ff;
-        margin-bottom: 2rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+      }
+
+      .section-intro {
+        text-align: center;
+        color: #8892b0;
+        margin-bottom: 4rem;
+        font-size: 1.1rem;
+      }
+
+      .app-showcase-card {
+        display: flex;
+        flex-direction: column;
+        background: #112240; // Slightly lighter navy for contrast
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.7);
+        border: 1px solid rgba(100, 255, 218, 0.1);
+        
+        // Switches to a side-by-side layout on larger screens
+        @media (min-width: 768px) {
+          flex-direction: row;
+          align-items: center;
+        }
+
+        .app-info {
+          padding: 3rem;
+          flex: 1;
+
+          h3 {
+            color: #e6f1ff;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+          }
+
+          p {
+            color: #8892b0;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+          }
+
+          .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 2.5rem;
+
+            span {
+              color: #64ffda;
+              font-size: 0.85rem;
+              font-family: monospace;
+              background: rgba(100, 255, 218, 0.1);
+              padding: 0.25rem 0.75rem;
+              border-radius: 4px;
+            }
+          }
+
+          .view-project-btn {
+            display: inline-block;
+            color: #64ffda;
+            border: 1px solid #64ffda;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.2s ease;
+
+            &:hover {
+              background: rgba(100, 255, 218, 0.1);
+            }
+          }
+        }
+
+        .app-visual {
+          flex: 1;
+          background: #233554;
+          min-height: 350px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          
+          .image-placeholder {
+            color: #8892b0;
+            font-family: monospace;
+            letter-spacing: 1px;
+          }
+        }
       }
     }
   }
