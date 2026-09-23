@@ -5,6 +5,7 @@ import Bio from "./components/Bio";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Contact from "./components/Contact";
+import InnerOS from "./components/InnerOS";
 import Projects from "./components/Projects";
 import Experiences from "./components/Experiences";
 import Technologies from "./components/Technologies";
@@ -35,6 +36,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<MainPortfolio />} />
             <Route path="/bio" element={<Bio />} />
+            <Route path="/inneros" element={<InnerOS />} />
             <Route path="/images" element={<ImageGallery />} />
             <Route path="/gallery" element={<VideoGallery />} />
             <Route path="/experience" element={<Experiences />} />

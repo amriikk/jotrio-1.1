@@ -30,6 +30,12 @@ const Navbar = () => {
               >
                 Projects
               </Link>
+              <Link
+                to="/inneros"
+                className="text-sm font-medium tracking-wide text-neutral-400 transition-colors hover:text-cyan-300"
+              >
+                InnerOS
+              </Link>
             </div>
 
             {/* Socials + resume */}
