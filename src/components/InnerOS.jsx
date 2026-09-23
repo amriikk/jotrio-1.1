@@ -66,7 +66,7 @@ const InnerOS = () => {
       </section>
         </div>
       </section>
-
+    <iOS_Articles />
     </div>
   );
 };
