@@ -1,11 +1,11 @@
 <h1 align="center">.:: J E I T I ::.</h1>
-<h2 align="center">Full Stack Software Engineer | Data Storyteller & Digital Designer</h2>
+<h2 align="center">Full-Stack AI Engineer</h2>
 
 <div align="center">
 
 [![Website Badge](https://img.shields.io/badge/-Jo.Tr.io-gold?style=plastic&logo=HTML5&logoColor=white&link=https://jotrio.com/)](https://jotrio.com/)
 [![Linkedin Badge](https://img.shields.io/badge/-Jeitī-blue?style=plastic&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jeiti/)](https://www.linkedin.com/in/jeiti/)
-[![Gmail Badge](https://img.shields.io/badge/-jeiti.trujillo@gmail.com-d14836?style=plastic&logo=Gmail&logoColor=white&link=mailto:jeiti.trujillo@gmail.com)](mailto:jeiti.trujillo@gmail.com)
+[![Gmail Badge](https://img.shields.io/badge/-amriikk@gmail.com-d14836?style=plastic&logo=Gmail&logoColor=white&link=mailto:amriikk@gmail.com)](mailto:amriikk@gmail.com)
 
 </div>
 
@@ -17,7 +17,7 @@
 
 ```javascript
 const jeiti = {
-  title: "AI | ML Engineer",
+  title: "Full-Stack AI Engineer",,
   tagline: "1 part Lead UX/UI Engineer. 2 parts Athletic Yogi. 3 parts Creative Visionary.",
   academics: {
     degree: "Master of Technology Management",
@@ -32,7 +32,7 @@ const jeiti = {
     languages: ["English", "Italian", "Spanish", "Japanese"]
   },
   hobbiesAndInterests: {
-    fitness: "300-hour RYT Certified Yoga Instructor",
+    fitness: "Power Vinyasa & Yoga Sculpt Instructor (350+ training hours)",
     sports: ["Tennis", "Soccer"],
     culture: ["Anime", "Video Games", "Puzzles", "Storytelling"],
     traits: ["Ambidextrous", "Animal Lover", "Foodie", "Pokémon Maestro", "Hogwarts Alumnus"]

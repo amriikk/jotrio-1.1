@@ -114,5 +114,5 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Santa Barbara, CA 93101 ",
-  email: "trujillo@ucsb.edu",
+  email: "amriikk@gmail.com",
 };

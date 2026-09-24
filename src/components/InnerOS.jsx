@@ -15,7 +15,7 @@ const InnerOS = () => {
           <h3 className="inner-os-subtitle">
             Mindfulness as the Ultimate Operating System.
           </h3>
-          <p className="hero-credentials">300-Hour RYT | Hot Yoga Practitioner</p>
+          <p className="hero-credentials">Power Vinyasa & Yoga Sculpt Instructor<br />350+ Training Hours</p>
         </div>
       </section>
 
@@ -28,7 +28,7 @@ const InnerOS = () => {
                 In the year preceding the 2020 lockdowns, I lost my mother. During the profound stillness that followed—and amidst the historic protests sweeping through Los Angeles—I found myself rebuilding my foundation from the ground up using two distinct tools: code and yoga.
             </p>
             <p>
-                While serving on the founding team at the DTLA CorePower Yoga studio and completing my 300-hour RYT certification, I was simultaneously immersed in a full-stack engineering bootcamp. That dual discipline of physical grounding and technical logic became my lifeline. It provided the clarity and force necessary to return to UC Santa Barbara in 2021 to finish my undergraduate studies. Later, propelled by the passing of my grandfather, I pushed that momentum even further, culminating in my 2026 graduation from the Robert Mehrabian College of Engineering.
+                While serving on the founding team at the DTLA CorePower Yoga studio and completing my teacher trainings in Power Vinyasa and Yoga Sculpt, I was simultaneously immersed in a full-stack engineering bootcamp. That dual discipline of physical grounding and technical logic became my lifeline. It provided the clarity and force necessary to return to UC Santa Barbara in 2021 to finish my undergraduate studies. Later, propelled by the passing of my grandfather, I pushed that momentum even further, culminating in my 2026 graduation from the Robert Mehrabian College of Engineering.
             </p>
             <p>
                 Yoga taught me that breath is the ultimate mechanism for balance, strength, and power. The Eight Limbs of Yoga offer more than just physical asana; they provide a systematic framework for getting grounded and closer to knowing thyself. 

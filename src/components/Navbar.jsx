@@ -1,5 +1,5 @@
 import logo from "../assets/JtLogo.png";
-import { FaGithub, FaLinkedin, FaInstagram, FaFilePdf } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFilePdf } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -13,8 +13,8 @@ const Navbar = () => {
             </Link>
         </div>
 
-        {/* Right Side Navigation & Socials */}
-        <div className="flex items-center gap-6 sm:gap-10">
+        {/* Right Side Navigation & Socials (drops to its own row on phones) */}
+        <div className="order-3 flex w-full items-center gap-6 sm:order-2 sm:ml-auto sm:w-auto sm:gap-10">
             
             {/* Page Links */}
             <div className="flex items-center gap-6">
@@ -38,7 +38,7 @@ const Navbar = () => {
               </Link>
             </div>
 
-            {/* Socials + resume */}
+            {/* Socials */}
             <div className="flex items-center justify-center gap-4 text-xl text-neutral-400 sm:text-2xl">
                 <a 
                   href="https://github.com/amriikk" 
@@ -56,23 +56,29 @@ const Navbar = () => {
                 >
                   <FaLinkedin />
                 </a>
+                {/* Instagram: add back (and re-import FaInstagram) once the account is ready
                 <a 
-                  href="#" 
+                  href="https://www.instagram.com/HANDLE/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
                   className="transition-colors hover:text-cyan-300"
                 >
                   <FaInstagram />
                 </a>
-                <a 
-                  href="https://docs.google.com/document/d/1LnK-WJrYCZ_ytks7F0GuRN7vOxZZsAFPrzKxIffcCRc/edit?usp=sharing" 
-                  target="_blank" 
-                  download 
-                  rel="noopener noreferrer"
-                  className="transition-colors hover:text-cyan-300"
-                >
-                  <FaFilePdf />
-                </a>
+                */}
             </div>
         </div>
+
+        {/* Resume - beside the logo on phones, end of the nav on larger screens */}
+        <a 
+          href="https://docs.google.com/document/d/1LnK-WJrYCZ_ytks7F0GuRN7vOxZZsAFPrzKxIffcCRc/edit?usp=sharing" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="order-2 flex items-center gap-2 rounded-full border border-cyan-800 bg-cyan-900/40 px-4 py-1.5 text-sm font-medium text-cyan-300 transition-colors hover:bg-cyan-900/60 hover:text-cyan-100 sm:order-3 sm:ml-6"
+        >
+          <FaFilePdf className="h-3.5 w-3.5" />
+          Resume
+        </a>
     </nav>
   );
 };
