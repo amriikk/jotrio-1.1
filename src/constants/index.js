@@ -114,6 +114,5 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Santa Barbara, CA 93101 ",
-  phoneNo: "+1 646 580 2349 ",
   email: "trujillo@ucsb.edu",
 };

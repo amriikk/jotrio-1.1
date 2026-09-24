@@ -1,6 +1,5 @@
 import React from 'react';
 import './InnerOS.scss';
-import iOS_Articles from './iOS_Articles';
 // Import high-res yoga hero pic here or place it in public/
 // import yogaHeroBg from '../assets/yoga-hero.jpg'; 
 
@@ -67,7 +66,7 @@ const InnerOS = () => {
         </div>
       </section>
       <section>
-        <iOS_Articles />
+        <IOS_Articles />
       </section>
     </div>
   );
