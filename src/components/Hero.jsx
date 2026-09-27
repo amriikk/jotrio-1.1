@@ -2,7 +2,7 @@ import { HERO_CONTENT } from '../constants'
 import profilePic from '../assets/JT_hero.png'
 import { motion } from "framer-motion"
 import { GlareCard } from "./ui/glare-card"
-import { Link } from "react-router-dom" // Added Link import
+import { Link } from "react-router-dom" 
 
 const container = (delay) => ({
     hidden: {x: -100, opacity: 0},
