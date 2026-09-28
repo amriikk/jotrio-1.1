@@ -1,5 +1,5 @@
 import logo from "../assets/JtLogo.png";
-import { FaGithub, FaLinkedin, FaFilePdf } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa"; 
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -13,11 +13,11 @@ const Navbar = () => {
             </Link>
         </div>
 
-        {/* Right Side Navigation & Socials (drops to its own row on phones) */}
-        <div className="order-3 flex w-full items-center gap-6 sm:order-2 sm:ml-auto sm:w-auto sm:gap-10">
+        {/* Right Side Navigation & Socials */}
+        <div className="mt-4 flex w-full items-center justify-between sm:mt-0 sm:w-auto sm:justify-end sm:gap-10">
             
             {/* Page Links */}
-            <div className="flex items-center gap-6">
+            <div className="flex items-center gap-4 sm:gap-6">
               <Link 
                 to="/experience" 
                 className="text-sm font-medium tracking-wide text-neutral-400 transition-colors hover:text-cyan-300"
@@ -36,6 +36,14 @@ const Navbar = () => {
               >
                 InnerOS
               </Link>
+              <a 
+                href="https://docs.google.com/document/d/1LnK-WJrYCZ_ytks7F0GuRN7vOxZZsAFPrzKxIffcCRc/edit?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-sm font-medium tracking-wide text-neutral-400 transition-colors hover:text-cyan-300"
+              >
+                Resume
+              </a>
             </div>
 
             {/* Socials */}
@@ -56,9 +64,9 @@ const Navbar = () => {
                 >
                   <FaLinkedin />
                 </a>
-                {/* Instagram: add back (and re-import FaInstagram) once the account is ready
+                {/* Instagram: uncomment and import FaInstagram from react-icons/fa when ready
                 <a 
-                  href="https://www.instagram.com/HANDLE/" 
+                  href="https://www.instagram.com/vajra_veda/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="transition-colors hover:text-cyan-300"
@@ -68,17 +76,6 @@ const Navbar = () => {
                 */}
             </div>
         </div>
-
-        {/* Resume - beside the logo on phones, end of the nav on larger screens */}
-        <a 
-          href="https://docs.google.com/document/d/1LnK-WJrYCZ_ytks7F0GuRN7vOxZZsAFPrzKxIffcCRc/edit?usp=sharing" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="order-2 flex items-center gap-2 rounded-full border border-cyan-800 bg-cyan-900/40 px-4 py-1.5 text-sm font-medium text-cyan-300 transition-colors hover:bg-cyan-900/60 hover:text-cyan-100 sm:order-3 sm:ml-6"
-        >
-          <FaFilePdf className="h-3.5 w-3.5" />
-          Resume
-        </a>
     </nav>
   );
 };

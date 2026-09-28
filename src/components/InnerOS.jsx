@@ -1,5 +1,5 @@
 import React from 'react';
-import './InnerOS.scss';
+import './InnerOS.scss'; 
 // Import high-res yoga hero pic here or place it in public/
 // import yogaHeroBg from '../assets/yoga-hero.jpg'; 
 
@@ -37,7 +37,8 @@ const InnerOS = () => {
                 This practice is my <b>InnerOS</b>—the quiet, resilient operating system that powers everything I build.
             </p>
           </div>
-          {/* --- DIGITAL INTEGRATION SECTION --- */}
+          
+      {/* --- DIGITAL INTEGRATION SECTION --- */}
       <section className="digital-application-section">
         <div className="content-container">
           <h2>Digital Integration</h2>
@@ -47,27 +48,24 @@ const InnerOS = () => {
             <div className="app-info">
               <h3>Yoga Journal App</h3>
               <p>
-                A dedicated platform engineered to track practice cadence, log mindfulness milestones, and explore the Eight Limbs. Designing a seamless, distraction-free UX to bridge holistic wellness with modern architecture.
+                A dedicated platform engineered to track practice cadence, log mindfulness milestones & explore the Eight Limbs. Designing a seamless, distraction-free UX to bridge holistic wellness with modern architecture.
               </p>
               <div className="tech-stack">
                 <span>React.js</span>
                 <span>Node.js</span>
                 <span>MongoDB</span>
-                <span>UI/UX Design</span>
               </div>
-              <a href="#" className="view-project-btn">Case Study Coming Soon</a>
+              <a href="#" className="view-project-btn">Coming Soon @ App Store!</a>
             </div>
             <div className="app-visual">
-              <div className="image-placeholder">App Interface Preview</div>
+              <div className="image-placeholder">Vajra Warrior Interface Preview</div>
             </div>
           </div>
         </div>
       </section>
         </div>
       </section>
-      <section>
-        <IOS_Articles />
-      </section>
+      
     </div>
   );
 };

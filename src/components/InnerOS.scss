@@ -1,21 +1,22 @@
+// Import an editorial serif for headings and a clean sans-serif for the body
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,800&family=Inter:wght@300;400;500&display=swap');
+
 .inner-os-container {
-  // Ensure the page takes up the full width and sets a dark theme baseline
-  background-color: #0a192f; 
-  color: #ccd6f6;
+  // Deep charcoal/bluish-green baseline for a grounded, earthy feel
+  background-color: #16201C; 
+  // Warm off-white text
+  color: #F4F1EB;
   min-height: 100vh;
+  // Swiss-style clean body font
   font-family: 'Inter', sans-serif;
 
   .parallax-hero {
     position: relative;
-    height: 100vh; // Full viewport height
+    height: 100vh; 
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    
-    // --- THE PARALLAX MAGIC ---
-    // iPhone Safari ignores `background-attachment: fixed`, so the image sits on a
-    // fixed layer instead, and clip-path keeps that layer visible only inside the hero
     clip-path: inset(0);
 
     &::before {
@@ -28,7 +29,7 @@
       background-size: cover;
     }
 
-    // A dark gradient overlay so white text stays readable against any background
+    // Adjusted gradient to match the new charcoal/sage background
     .hero-overlay {
       position: absolute;
       top: 0;
@@ -37,39 +38,42 @@
       height: 100%;
       background: linear-gradient(
         to bottom, 
-        rgba(10, 25, 47, 0.6) 0%, 
-        rgba(10, 25, 47, 0.9) 100%
+        rgba(22, 32, 28, 0.65) 0%, 
+        rgba(22, 32, 28, 0.95) 100%
       );
       z-index: 1;
     }
 
     .hero-content {
       position: relative;
-      z-index: 2; // Sits above the overlay
+      z-index: 2; 
       padding: 0 2rem;
-      transform: translateY(-10%); // Slight optical adjustment for vertical centering
+      transform: translateY(-10%); 
 
       .inner-os-title {
-        font-size: clamp(3rem, 8vw, 6rem); // Responsive sizing
+        font-family: 'Playfair Display', serif; // Editorial serif for the main title
+        font-size: clamp(3.5rem, 8vw, 7rem); 
         font-weight: 800;
-        color: #e6f1ff;
-        letter-spacing: 4px;
-        margin-bottom: 1rem;
-        text-transform: uppercase;
-      }
-
-      .inner-os-subtitle {
-        font-size: clamp(1.2rem, 3vw, 1.8rem);
-        color: #64ffda; // A calm, tech-forward accent color
-        font-weight: 400;
+        color: #F4F1EB; // Warm off-white
+        letter-spacing: 2px;
         margin-bottom: 0.5rem;
       }
 
+      .inner-os-subtitle {
+        font-family: 'Inter', sans-serif;
+        font-size: clamp(1.1rem, 3vw, 1.5rem);
+        color: #84A98C; // Calm sage/bluish-green accent
+        font-weight: 300;
+        letter-spacing: 1px;
+        margin-bottom: 1.5rem;
+      }
+
       .hero-credentials {
-        font-size: 1rem;
-        color: #8892b0;
-        letter-spacing: 1.5px;
+        font-size: 0.9rem;
+        color: #A3B8B0; // Muted sage for secondary text
+        letter-spacing: 2px;
         text-transform: uppercase;
+        line-height: 1.6;
       }
     }
   }
@@ -77,34 +81,36 @@
   .philosophy-section {
     position: relative;
     z-index: 10;
-    background-color: #0a192f; // Solid background covers the fixed image as you scroll
+    background-color: #16201C; 
     padding: 6rem 2rem;
 
     .content-container {
-      max-width: 900px;
+      max-width: 800px; // Slightly narrower for editorial readability
       margin: 0 auto;
       
       h2 {
-        font-size: 2.5rem;
-        color: #e6f1ff;
-        margin-bottom: 2.5rem;
+        font-family: 'Playfair Display', serif;
+        font-size: 2.8rem;
+        color: #F4F1EB;
+        margin-bottom: 3rem;
         text-align: center;
+        font-weight: 400;
       }
 
-      // Formatting for your personal excerpt
       .philosophy-text {
         text-align: left;
         font-size: 1.15rem; 
-        line-height: 1.8;
-        color: #8892b0;
+        line-height: 1.9;
+        color: #A3B8B0;
+        font-weight: 300;
 
         p {
-          margin-bottom: 1.5rem;
+          margin-bottom: 2rem;
         }
 
         b {
-          color: #64ffda; 
-          font-weight: 600;
+          color: #84A98C; // Sage highlight instead of neon teal
+          font-weight: 500;
         }
       }
     }
@@ -113,7 +119,7 @@
   .digital-application-section {
     position: relative;
     z-index: 10;
-    background-color: #0a192f;
+    background-color: #16201C;
     padding: 2rem 2rem 8rem;
 
     .content-container {
@@ -121,94 +127,104 @@
       margin: 0 auto;
 
       h2 {
-        font-size: 2.5rem;
-        color: #e6f1ff;
-        margin-bottom: 0.5rem;
+        font-family: 'Playfair Display', serif;
+        font-size: 2.8rem;
+        color: #F4F1EB;
+        margin-bottom: 1rem;
         text-align: center;
+        font-weight: 400;
       }
 
       .section-intro {
         text-align: center;
-        color: #8892b0;
+        color: #A3B8B0;
         margin-bottom: 4rem;
         font-size: 1.1rem;
+        font-style: italic; // Adds to the journal aesthetic
       }
 
       .app-showcase-card {
         display: flex;
         flex-direction: column;
-        background: #112240; // Slightly lighter navy for contrast
-        border-radius: 12px;
+        background: #1D2A25; // Slightly lighter sage-charcoal for the card
+        border-radius: 8px; // Softer corners
         overflow: hidden;
-        box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.7);
-        border: 1px solid rgba(100, 255, 218, 0.1);
+        box-shadow: 0 15px 35px -10px rgba(0, 0, 0, 0.4);
+        border: 1px solid rgba(132, 169, 140, 0.15); // Subtle sage border
         
-        // Switches to a side-by-side layout on larger screens
         @media (min-width: 768px) {
           flex-direction: row;
           align-items: center;
         }
 
         .app-info {
-          padding: 3rem;
+          padding: 3.5rem;
           flex: 1;
 
           h3 {
-            color: #e6f1ff;
-            font-size: 1.8rem;
+            font-family: 'Playfair Display', serif;
+            color: #F4F1EB;
+            font-size: 2rem;
             margin-bottom: 1rem;
+            font-weight: 400;
           }
 
           p {
-            color: #8892b0;
-            line-height: 1.6;
+            color: #A3B8B0;
+            line-height: 1.7;
             margin-bottom: 2rem;
+            font-weight: 300;
           }
 
           .tech-stack {
             display: flex;
             flex-wrap: wrap;
-            gap: 1rem;
+            gap: 0.75rem;
             margin-bottom: 2.5rem;
 
             span {
-              color: #64ffda;
-              font-size: 0.85rem;
-              font-family: monospace;
-              background: rgba(100, 255, 218, 0.1);
-              padding: 0.25rem 0.75rem;
+              color: #84A98C;
+              font-size: 0.8rem;
+              font-family: 'Inter', sans-serif;
+              background: rgba(132, 169, 140, 0.1);
+              padding: 0.4rem 0.8rem;
               border-radius: 4px;
+              letter-spacing: 0.5px;
             }
           }
 
           .view-project-btn {
             display: inline-block;
-            color: #64ffda;
-            border: 1px solid #64ffda;
-            padding: 0.75rem 1.5rem;
+            color: #16201C;
+            background-color: #84A98C; // Solid sage button for grounding
+            padding: 0.85rem 1.75rem;
             border-radius: 4px;
             text-decoration: none;
             font-weight: 500;
-            transition: background-color 0.2s ease;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
 
             &:hover {
-              background: rgba(100, 255, 218, 0.1);
+              background-color: #95BCAE;
+              transform: translateY(-2px);
             }
           }
         }
 
         .app-visual {
           flex: 1;
-          background: #233554;
-          min-height: 350px;
+          background: #25352F; // Deeper tone for image contrast
+          min-height: 400px;
           display: flex;
           align-items: center;
           justify-content: center;
           
           .image-placeholder {
-            color: #8892b0;
-            font-family: monospace;
+            color: #84A98C;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
             letter-spacing: 1px;
+            text-transform: uppercase;
           }
         }
       }
