@@ -51,9 +51,10 @@ const InnerOS = () => {
                 A dedicated platform engineered to track practice cadence, log mindfulness milestones & explore the Eight Limbs. Designing a seamless, distraction-free UX to bridge holistic wellness with modern architecture.
               </p>
               <div className="tech-stack">
-                <span>React.js</span>
+                <span>TypeScript</span>
                 <span>Node.js</span>
                 <span>MongoDB</span>
+                <span>React Native</span>
               </div>
               <a href="#" className="view-project-btn">Coming Soon @ App Store!</a>
             </div>
