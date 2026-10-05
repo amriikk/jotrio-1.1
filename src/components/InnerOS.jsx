@@ -56,7 +56,8 @@ const InnerOS = () => {
                 <span>MongoDB</span>
                 <span>React Native</span>
               </div>
-              <a href="#" className="view-project-btn">Coming Soon @ App Store!</a>
+              
+              <a href="#" className="view-project-btn">Coming Soon!</a>
             </div>
             <div className="app-visual">
               <div className="image-placeholder">Vajra Warrior Interface Preview</div>
